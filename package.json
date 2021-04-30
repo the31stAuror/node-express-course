@@ -4,11 +4,16 @@
   "description": "",
   "main": "another_export.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node npm.js",
+    "dev": "nodemon test.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
